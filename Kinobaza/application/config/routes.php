@@ -79,8 +79,5 @@ $route['rating/(:any)'] = 'main/rating/$1';
 
 $route['contact'] = 'main/contact';
 
-$route['search'] = 'main/search';
-$route['search/(:any)'] = 'main/search/$1';
-
-
-
+$route['search'] = 'search';
+$route['search/(:any)'] = 'search/$1';

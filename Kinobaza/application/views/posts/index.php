@@ -5,7 +5,7 @@
     <p> <a href = 'create'> Add Post </a></p><br>
 <?php } ?>
 
-<?php foreach ($news as $key => $value): ?>
+<?php foreach ($posts as $key => $value): ?>
     <p> <a href = "view/<?php echo $value['slug']; ?>"> <?php echo $value['title']; ?> </a> 
     <?php if ($this -> dx_auth -> is_admin()) { ?>
     | <a href = "edit/<?php echo $value['slug']; ?> "> Edit </a>

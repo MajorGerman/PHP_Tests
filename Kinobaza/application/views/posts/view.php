@@ -7,4 +7,4 @@
 </h3>
 
 <p> <?php echo $content; ?> </p>
-<br><br><br><a href = "/news/"> All Posts </a>
+<br><br><br><a href = "/posts/"> All Posts </a>

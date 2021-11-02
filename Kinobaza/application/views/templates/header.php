@@ -28,7 +28,7 @@
                                 <div class = "row">
 
                                     <div class = "col-lg-12">
-                                        <h1><a href = "/kinobaza">Kinobaza</a></h1>
+                                        <h1><a href = "/">Kinobaza</a></h1>
                                         <p>Cinema is our passion!</p>
                                     </div>
 
@@ -66,9 +66,9 @@
         </div>
 
         <div class = "wrapper">
-            
+
             <div class = "container">
-                
+
                 <div class = "row">
 
                     <div class = "col-lg-9 col-lg-push-3">
@@ -83,3 +83,4 @@
                                 </div>
                             </div>
                         </form>
+                        

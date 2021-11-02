@@ -55,7 +55,7 @@
 
 <?php endforeach ?>
 
-<?php if ($this -> dx_auth -> if_logged_in()): ?>
+<?php if ($this -> dx_auth -> is_logged_in()): ?>
 
     <?php $this -> session -> set_flashdata('redirect', $this -> uri -> uri_string()); ?>
 

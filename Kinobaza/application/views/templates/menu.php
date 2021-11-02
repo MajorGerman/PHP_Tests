@@ -1,8 +1,7 @@
 
                         <class = "col-lg-3 col-lg-pull-9">
-
                             <div class = "panel panel-info hidden-xs">
-                                <div class = "panel-heading"><div class = "sidebar-header">Search</div></div>
+                                <div class = "panel-heading">3<div class = "sidebar-header">Search</div></div>
                                 <div class = "panel-body">
                                     <form role = "search" action = "/search/" method = "get">
                                         <div class = "form-group">
