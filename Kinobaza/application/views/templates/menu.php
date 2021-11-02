@@ -1,7 +1,7 @@
 
-                        <class = "col-lg-3 col-lg-pull-9">
+                        <div class = "col-lg-3 col-lg-pull-9">
                             <div class = "panel panel-info hidden-xs">
-                                <div class = "panel-heading">3<div class = "sidebar-header">Search</div></div>
+                                <div class = "panel-heading"><div class = "sidebar-header">Search</div></div>
                                 <div class = "panel-body">
                                     <form role = "search" action = "/search/" method = "get">
                                         <div class = "form-group">
@@ -30,25 +30,25 @@
                                                 'checked' => set_value('remember'));
                                         ?>
 
-                                        <?php echo $this -> session -> flashdata('general__error'); ?>
+                                        <?php echo $this->session->flashdata('general__error'); ?>
 
                                         <form role = "form" action = "/auth/login/" method = "post">
                                         
                                             <div class = "form-group">
                                                 <input type = "text" class = "form-control input-lg" placeholder = "Username" name = "username">
-                                                <?php echo $this -> session -> flashdata('username__error'); ?>  
+                                                <?php echo $this->session->flashdata('username__error'); ?>  
                                             </div>
 
                                             <div class = "form-group">
-                                                <input type = "text" class = "form-control input-lg" placeholder = "Password" name = "password">
-                                                <?php echo $this -> session -> flashdata('password__error'); ?>  
+                                                <input type = "password" class = "form-control input-lg" placeholder = "Password" name = "password">
+                                                <?php echo $this->session->flashdata('password__error'); ?>  
                                             </div>         
                                             
                                             <button type = "submit" class = "btn btn-warning pull-right">Log In</button>
 
                                             <dd>
                                                 <?php echo form_checkbox($remember); ?> <?php echo form_label('Remember me'.'<br>', $remember['id']); ?>
-                                                <?php echo anchor($this -> dx_auth -> forgor_password_uri, 'Forgot your password?'.'<br>'); ?>
+                                                <?php echo anchor($this -> dx_auth -> forgot_password_uri, 'Forgot your password?'.'<br>'); ?>
                                                 <?php 
                                                     if ($this -> dx_auth -> allow_registration) {
                                                         echo anchor($this -> dx_auth -> register_uri, 'Registration');
@@ -98,3 +98,6 @@
 
                                 </div>
                             </div>
+
+
+                         </div>

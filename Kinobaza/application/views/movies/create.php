@@ -10,6 +10,6 @@
     <input class = 'form-control input-lg' type = 'input' name = 'director' placeholder = 'Director'> <br>
     <input class = 'form-control input-lg' type = 'input' name = 'add_date' value = "<?php echo date("Y-m-d")." ".date("h:i:s"); ?>"> <br>
     <input class = 'form-control input-lg' type = 'input' name = 'category_id' placeholder = 'Category (1 for Move / 2 for Serial)'> <br>
-    <input class = 'btn btn-success' type = 'input' name = 'submit' placeholder = 'Add'> <br>
+    <input class = 'btn btn-success' type = 'submit' name = 'submit' value = 'Add'> <br>
 
 </form>
