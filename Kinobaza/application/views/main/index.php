@@ -40,7 +40,7 @@
             <a href="/posts/view/<?php echo $value['slug']; ?>"><h3><?php echo $value['title']; ?></h3></a>
             <hr>
             <p><?php echo $value['text']; ?></p>
-            <a href="/posts/view/<?php echo $value['slug']; ?>" class="btn btn-warning pull-right">читать</a>
+            <a href="/posts/view/<?php echo $value['slug']; ?>" class="btn btn-warning pull-right">Read</a>
             <div class="margin-8"></div>
           <?php endforeach ?>
           

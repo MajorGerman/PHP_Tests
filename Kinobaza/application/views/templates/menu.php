@@ -48,7 +48,7 @@
 
                                             <dd>
                                                 <?php echo form_checkbox($remember); ?> <?php echo form_label('Remember me'.'<br>', $remember['id']); ?>
-                                                <?php echo anchor($this -> dx_auth -> forgot_password_uri, 'Forgot your password?'.'<br>'); ?>
+                                                <?php echo anchor($this -> dx_auth -> forgot_password_uri, '<br>'.'Forgot your password?'.'<br>'); ?>
                                                 <?php 
                                                     if ($this -> dx_auth -> allow_registration) {
                                                         echo anchor($this -> dx_auth -> register_uri, 'Registration');
